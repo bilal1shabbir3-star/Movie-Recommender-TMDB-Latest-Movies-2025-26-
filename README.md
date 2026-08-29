@@ -6,6 +6,11 @@ Instead of relying on user ratings or previous user behavior, this project analy
 
 ---
 
+## 🚀 Live Project
+
+https://bilal-movie-recommender.streamlit.app/
+
+
 ## 🚀 How It Works
 
 The recommendation system follows the following pipeline:

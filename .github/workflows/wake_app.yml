@@ -2,9 +2,9 @@ name: Wake Up Streamlit App
 
 on:
   schedule:
-    # Runs every 8 hours (At minute 0 past every 8th hour)
+    # Runs every 8 hours
     - cron: '0 */8 * * *'
-  workflow_dispatch: # Allows you to trigger this manually whenever you want
+  workflow_dispatch: 
 
 jobs:
   wake-app-job:
@@ -17,7 +17,7 @@ jobs:
     - name: Set up Python
       uses: actions/setup-python@v5
       with:
-        python-node-version: '3.10'
+        python-version: '3.10' # Fixed parameter here
 
     - name: Install Dependencies
       run: |

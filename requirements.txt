@@ -1,3 +1,5 @@
 streamlit
 pandas
 fuzzywuzzy
+selenium
+webdriver-manager
